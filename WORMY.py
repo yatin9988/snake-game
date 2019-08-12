@@ -204,8 +204,7 @@ def drawApple(coord):
     y=coord['y']*CELLSIZE
     appleRect=pygame.Rect(x,y,CELLSIZE,CELLSIZE)
     pygame.draw.rect(DISPLAYSURF,RED,appleRect)
-
-## only start the game if it is run as an individual file and not imported
+    
 main()
 
                 

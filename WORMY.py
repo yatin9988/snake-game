@@ -34,7 +34,7 @@ def main(): #function main
     pygame.display.set_caption("WORMY") #sets the caption of pygame window
      
     showStartScreen() #begins the game with an animation (wormy animation)
-    while True: #infinite loop
+    while True: #game loop
         runGame() #begins the game
         showGameOverScreen() #shows the animation indicating the end of game
 
